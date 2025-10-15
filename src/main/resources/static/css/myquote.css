@@ -8,11 +8,11 @@ body {
 .container {
     position: relative;
     width: 100%;
-    max-width: 375px;
+    /* max-width: 375px; */
     height: 100vh;
     max-height: 812px;
     margin: 0 auto;
-    background: #F2F5FC;
+    background: #fff;
     box-sizing: border-box;
     padding: 0 10px;
     overflow-y: auto;
@@ -69,8 +69,8 @@ body {
 .estimate-card {
     margin: 72px auto 20px auto; /* fixed header 만큼 margin-top 추가 */
     width: 100%;
-    max-width: 337px;
-    background: #fff;
+    /* max-width: 337px; */
+    background: #F2F5FC;
     border-radius: 16px;
     border: 1px solid #CCCCCC;
     box-shadow: 0 2px 8px rgba(44,62,80,0.03);
@@ -176,7 +176,7 @@ body {
 /* 견적 만료 박스 */
 .expire-box {
     width: 100%;
-    max-width: 301px;
+    /* max-width: 301px; */
     height: 43px;
     margin: 0 auto 20px auto;
     background: #F3F9FF;

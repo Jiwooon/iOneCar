@@ -33,9 +33,6 @@ body, html {
       margin-right: 60px;
     }
     
-    .user-type {
-      margin-right: 8px;
-    }
     
     .type-btn {
       padding: 5px 10px;
@@ -95,9 +92,6 @@ body, html {
       margin-right: 50px;
     }
     
-    .user-type {
-      margin-right: 6px;
-    }
     
     .type-btn {
       padding: 4px 8px;
@@ -152,6 +146,12 @@ body, html {
     background: #F2F5FC;
   }
   
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
   .logo {
     margin-right: 80px;
     font-weight: 600;
@@ -164,7 +164,6 @@ body, html {
     border-radius: 20px;
     padding: 2px;
     gap: 2px;
-    margin-right: 12px;
   }
   
   .type-btn {
@@ -188,7 +187,16 @@ body, html {
   
   /* Bell icon */
   .icon-bell {
-    font-size: 20px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .bell-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
   }
   
   /* Quote Card */

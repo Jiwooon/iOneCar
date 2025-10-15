@@ -11,7 +11,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 375px;
+  /* max-width: 375px; */
   background-color: #FFFFFF;
   display: flex;
   flex-direction: column;

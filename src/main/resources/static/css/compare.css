@@ -6,7 +6,7 @@
     .container {
         position: relative;
         width: 100%;
-        max-width: 375px;
+        /* max-width: 375px; */
         min-height: 100vh;
         margin: 0 auto;
         background: #F2F5FC;
@@ -56,7 +56,7 @@
     .detail-card {
         margin: 72px auto 18px auto;
         width: 100%;
-        max-width: 337px;
+        /* max-width: 337px; */
         background: #fff;
         border-radius: 16px;
         border: 1px solid #CCCCCC;
